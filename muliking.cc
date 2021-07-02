@@ -10,26 +10,29 @@ printf("enter value phyc");
 scanf("%d",&phyc);
 printf("enter value bio");
 scanf("%d",&bio);
-averange=(maths+phyc+bio)/3;
+averange=((maths+phyc+bio)/3);
 printf("averange%f\n",averange);
 
-if(averange>70)
-{
+if(averange>=70&&averange<100)
+{{
+	
+	
 	printf("A");
 }
-else if(averange>60)
+if(averange>=60&&averange<69)
 {
 	printf("B");
 }
-else if(averange>50)
+if(averange>=50&&averange<59)
 {
 	printf("C");
 }
-else if(averange>40)
+if(averange>=40&&averange<49)
 {
 	printf("D");
 }
-else
+}
+else 
 {
 	printf("FAIL");
 }
