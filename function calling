@@ -1,0 +1,19 @@
+/*c program calculating area if a rectangle*/
+float rectangle(float L,float W);
+int main()
+{
+float length,width,area;
+printf("enter the length");
+scanf("%f",&length);
+printf("enter the width");
+scanf("%f",&width);
+area=rectangle(length,width):
+printf(area is %f",area);
+return 0;
+}
+float rectangle(float L,float W)
+{
+float area;
+area=L*W;
+return area;
+}
