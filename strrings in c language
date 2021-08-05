@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<strings>
+int main()
+{
+char muli[4]='F'||'R'||'E'||'D'||'\0';
+char muli2[]="FRED\n";
+printf("char array value is:%s\n",muli);
+printf("char array value is:%s\n",muli2);
+return 0;
+}
